@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: white
+}
+
+/*Внешний вид меню */
+
+
+.menu_ul {
+	font-size:30px; 
+	display: flex;
+	justify-content: space-between; 
+	list-style: none;
+	width: 50%;
+	margin-left: 50%;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;	
+}
+a {
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+
+li:hover{
+	background:  rgba(255, 0, 0,0.7);
+	transition: 1s;	
+} 
+header{
+	background: rgba(0,0,0);
+	padding: 30px;
+	
+	
+}
+/*sub menu*/
+.menu__list{
+	
+}
+.menu__drop ul {
+	position: absolute;
+	display: none;
+}
+.menu__drop li: hover ul {
+	display: block
+}
+
+/* кнопка Home */
+.home{
+	background: red
+}
+.homepage:hover{
+	color: black;
+	background: white;
+	transition: 1s;
+
+}
+/*main */
+.h1{
+	font-size-adjust: 30px;
+	margin-top: 30px;
+	margin-left: 200px;
+	color:red;
+}
+.main {
+	margin-left: 100px;
+	width: 30%;
+}
+.logo{
+	margin-top: -140px;
+	margin-left: 900px;
+}
+.underpicture{
+
+	text-align: right;
+	margin-right: 140px;
+	
+}
+/*About me*/
+.about {
+    text-align: right;
+    margin-left: 700px;
+	width: 40%;
+
+}
+.h2{
+	font-size-adjust: 30px;
+	margin-top: 30px;
+	text-align: right;
+	margin-right: 200px;
+	color:red;
+}
+.me{
+	margin-top: -140px;
+	margin-left: 100px;
+	size: 100px ;
+}
+.underpicture1{
+
+	text-align: left;
+	margin-left:  140px;
+	
+}
+/*contact*/
+a{
+	color: orange;
+}
+.main1 {
+	margin-left: 100px;
+	width: 30%;
+	color:black;
+}
